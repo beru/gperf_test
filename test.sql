@@ -1,0 +1,31 @@
+.separator ,
+.output test.csv
+
+CREATE TABLE IF NOT EXISTS test(
+	id TEXT PRIMARY KEY NOT NULL,
+	data TEXT NOT NULL
+);
+
+INSERT INTO test VALUES('TEST_AAA', '1');
+INSERT INTO test VALUES('TEST_BBB', '2');
+INSERT INTO test VALUES('TEST_CCC', 'sfdafsd');
+INSERT INTO test VALUES('TEST_DDD', 'fdsafhasdk');
+INSERT INTO test VALUES('TEST_EEE', '2dsadsa|');
+INSERT INTO test VALUES('TEST_ZZZ', '3dfafdsa');
+INSERT INTO test VALUES('TEST_QQQQQQ', '0');
+INSERT INTO test VALUES('TEST_BAKERATTA', '0');
+INSERT INTO test VALUES('TEST_MEOW', '0');
+INSERT INTO test VALUES('TEST_BOO', 'aaa');
+INSERT INTO test VALUES('TEST_MOOO', 'uuu');
+INSERT INTO test VALUES('TEST_BOW', '333');
+INSERT INTO test VALUES('TEST_SPAGHETTI', 'fdsafas0');
+INSERT INTO test VALUES('TEST_PASTA', 'fdafdafdsa');
+INSERT INTO test VALUES('TEST_UDON', 'fdafdafdsa');
+INSERT INTO test VALUES('TEST_SOBA', 'fdafdafdsa');
+INSERT INTO test VALUES('TEST_RAHMEN', 'fdafdafdsa');
+INSERT INTO test VALUES('TEST_SOUMEN', 'dsadsadsa');
+INSERT INTO test VALUES('TEST_TANMEN', 'qewqrqw');
+INSERT INTO test VALUES('TEST_REIMEN', 'gasdfafda');
+INSERT INTO test VALUES('TEST_NOODLE', 'gasdr');
+
+SELECT id, ROWID FROM test ORDER BY ROWID;

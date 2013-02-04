@@ -1,0 +1,26 @@
+
+Hashing (2)
+http://www.radiumsoftware.com/0407.html
+
+Minimal Perfect Hashing
+http://burtleburtle.net/bob/hash/perfect.html
+
+Throw away the keys: Easy, Minimal Perfect Hashing
+http://stevehanov.ca/blog/index.php?id=119
+
+A perfect minimal hash function generator
+https://npmjs.org/package/perfect
+
+CMPH - C Minimal Perfect Hashing Library
+http://cmph.sourceforge.net/
+
+gperf
+http://www.gnu.org/software/gperf/manual/gperf.html
+
+Lookup Tables
+http://www.theiling.de/projects/lookuptable.html
+
+Minimum Perfect Hash in C#
+http://www.dupuis.me/node/9
+
+
